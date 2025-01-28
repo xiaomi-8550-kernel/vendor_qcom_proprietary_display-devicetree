@@ -338,4 +338,8 @@
                 panel = <&dsi_m18_38_0c_0a_prim_dsc_cmd>;
                 panel1 = <&dsi_m18_38_0c_0a_sec_dsc_cmd>;
         };
+	xiaomi-touch {
+		panel-primary = <&dsi_m18_38_0c_0a_prim_dsc_cmd
+			&dsi_m18_38_0c_0a_sec_dsc_cmd>;
+	};
 };

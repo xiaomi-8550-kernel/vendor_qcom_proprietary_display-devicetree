@@ -262,6 +262,14 @@
     };
 };
 
+&soc {
+    xiaomi-touch {
+        panel-primary = <&dsi_r66451_amoled_video
+                 &dsi_n81a_36_02_0a_dualdsi_dsc_lcd_video
+                 &dsi_n81a_36_02_0a_p0_dualdsi_dsc_lcd_video>;
+    };
+};
+
 /* keyboard start */
 &qupv3_se9_i2c {
     nanosic@4c{
